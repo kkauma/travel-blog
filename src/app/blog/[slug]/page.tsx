@@ -127,8 +127,8 @@ export async function generateMetadata({ params }: BlogPostParams) {
   }
 
   return {
-    title: `${post.title} | Wanderlust Chronicles`,
-    description: post.content.slice(0, 160), // First 160 characters as description
+    title: `${post.title} | Kyle's Travel Blog`,
+    description: post.content.slice(0, 160),
     openGraph: {
       title: post.title,
       description: post.content.slice(0, 160),

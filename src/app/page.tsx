@@ -2,14 +2,14 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
+    <div className="min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
           <h1 className="text-4xl sm:text-6xl font-bold mb-4">
-            Wanderlust Chronicles
+            Kyle's Travel Blog
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            Exploring the world, one adventure at a time
+            Join me on my journey around the world
           </p>
         </div>
 
@@ -35,8 +35,7 @@ export default function Home() {
 
       <footer className="mt-20 text-center text-gray-600 dark:text-gray-300">
         <p>
-          © {new Date().getFullYear()} Wanderlust Chronicles. All rights
-          reserved.
+          © {new Date().getFullYear()} Kyle's Travel Blog. All rights reserved.
         </p>
       </footer>
     </div>
