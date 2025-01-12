@@ -9,7 +9,7 @@ export default function Home() {
             Kyle's Travel Blog
           </h1>
           <p className="text-xl text-gray-600 dark:text-gray-300">
-            Join me on my journey around the world
+            Join me on my journey around the world!
           </p>
         </div>
 
@@ -19,9 +19,10 @@ export default function Home() {
           <div className="rounded-lg overflow-hidden shadow-lg">
             <div className="relative h-48">
               <Image
-                src="/placeholder-travel.jpg" // You'll need to add this image
+                src="/images/home/kyle_linkedin.jpg"
                 alt="Travel destination"
                 fill
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                 className="object-cover"
               />
             </div>
