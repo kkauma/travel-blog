@@ -9,7 +9,7 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="relative h-[400px]">
             <Image
-              src="/about-me.jpg" // You'll need to add this image
+              src="/images/about/Kyle_Maui.jpeg" // You'll need to add this image
               alt="About me"
               fill
               className="object-cover rounded-lg"

@@ -11,7 +11,7 @@ export default function Blog() {
           <article className="border-b border-gray-200 pb-12">
             <div className="relative h-[400px] mb-6">
               <Image
-                src="/blog-post-1.jpg" // You'll need to add this image
+                src="/images/blog/Kyle_Katherine_Maui_Cruise.jpg" // You'll need to add this image
                 alt="Blog post"
                 fill
                 className="object-cover rounded-lg"
