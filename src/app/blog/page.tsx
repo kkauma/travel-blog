@@ -17,11 +17,10 @@ export default function Blog() {
                 className="object-cover rounded-lg"
               />
             </div>
-            <h2 className="text-2xl font-bold mb-4">
-              Your First Blog Post Title
-            </h2>
+            <h2 className="text-2xl font-bold mb-4">Sailing in Santorini</h2>
             <p className="text-gray-600 dark:text-gray-300 mb-4">
-              Preview of your blog post content...
+              Santorini was one of our favorite places we've visited, and is a
+              trip we won't forget!
             </p>
             <button className="text-blue-600 dark:text-blue-400 font-semibold">
               Read more →
