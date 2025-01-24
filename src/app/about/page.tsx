@@ -18,11 +18,18 @@ export default function About() {
 
           <div>
             <p className="text-lg mb-4">
-              Welcome to my travel blog! I'm [Your Name], a passionate
-              traveler...
+              Hey There 👋, I'm Kyle! I'm a software engineer and a travel
+              enthusiast. So glad you've joined me on my journey around the
+              world!
             </p>
             <p className="text-lg mb-4">
-              Through this blog, I share my adventures, tips, and stories...
+              Through this blog, I share my adventures, tips, and stories from
+              our adventures. Some of my favorite places we've visited include
+              Santorini, Lake Como, Nice, Ez, Paris, and Hawaii!
+            </p>
+            <p className="text-lg mb-4">
+              Check out these photos from our adventures on the inspiration
+              board
             </p>
           </div>
         </div>
