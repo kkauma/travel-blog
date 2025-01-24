@@ -5,10 +5,10 @@ export default function Home() {
     <div className="min-h-screen p-8 pb-20 gap-16 sm:p-20">
       <main className="max-w-4xl mx-auto">
         <div className="text-center mb-16">
-          <h1 className="text-4xl sm:text-6xl font-bold mb-4">
+          <h1 className="text-4xl sm:text-6xl font-bold mb-4 text-gray-900">
             Kyle's Travel Blog
           </h1>
-          <p className="text-xl text-gray-600 dark:text-gray-300">
+          <p className="text-xl text-gray-600">
             Join me on my journey around the world!
           </p>
         </div>
@@ -16,7 +16,7 @@ export default function Home() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {/* Featured blog posts will go here */}
           {/* This is a placeholder card */}
-          <div className="rounded-lg overflow-hidden shadow-lg">
+          <div className="rounded-lg overflow-hidden shadow-lg bg-white">
             <div className="relative h-48">
               <Image
                 src="/images/home/kyle_linkedin.jpg"
@@ -27,14 +27,16 @@ export default function Home() {
               />
             </div>
             <div className="p-6">
-              <h2 className="text-xl font-bold mb-2">Latest Adventure</h2>
-              <p className="text-gray-600 dark:text-gray-300">Coming soon...</p>
+              <h2 className="text-xl font-bold mb-2 text-gray-900">
+                Latest Adventure
+              </h2>
+              <p className="text-gray-600">Coming soon...</p>
             </div>
           </div>
         </div>
       </main>
 
-      <footer className="mt-20 text-center text-gray-600 dark:text-gray-300">
+      <footer className="mt-20 text-center text-gray-600">
         <p>
           © {new Date().getFullYear()} Kyle's Travel Blog. All rights reserved.
         </p>

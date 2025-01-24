@@ -5,12 +5,17 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --nav-bg: #ffffff;
+  --nav-border: #e5e7eb;
 }
 
 @media (prefers-color-scheme: dark) {
+  /* We'll override the dark mode to keep it light */
   :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+    --background: #ffffff;
+    --foreground: #171717;
+    --nav-bg: #ffffff;
+    --nav-border: #e5e7eb;
   }
 }
 
